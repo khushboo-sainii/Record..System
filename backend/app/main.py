@@ -10,7 +10,7 @@ app = FastAPI(title="Record System API")
 SECRET_KEY = os.getenv("SECRET_KEY", "supersecret")
 
 ALLOWED_ORIGINS = [
-    "https://recordsystem.vercel.app",   # production frontend
+    "https://record-system.vercel.app",   # production frontend
     "https://record-system-git-new-feature-khushboo-sainiis-projects.vercel.app",  # staging frontend
     "http://localhost:3000"  # local dev frontend
 ]
